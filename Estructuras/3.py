@@ -1,0 +1,5 @@
+Salario=float(input("Salario base: "))
+ComisionA=float(input("Valor de la primera venta: "))
+ComisionB=float(input("Valor de la segunda venta: "))
+ComisionC=float(input("Valore de la terce venta: "))
+print("En un mes usted ganara por comisiones", (((ComisionA+ComisionB+ComisionC)*0.1)), "para un total de", (((ComisionA+ComisionB+ComisionC)*0.1)+Salario))

@@ -1,0 +1,6 @@
+ParcialA=float(input("Puntos en el primer parcial: "))
+ParcialB=float(input("Puntos en el segundo parcial: "))
+ParcialC=float(input("Puntos en el tercer parcial: "))
+ExamenF=float(input("Puntos en el examen final: "))
+TrabjF=float(input("Puntos en el trabajo final: "))
+print("Su nota final sera de", (((ParcialA+ParcialB+ParcialC)/3)*0.55)+(ExamenF*0.3)+(TrabjF*0.15))

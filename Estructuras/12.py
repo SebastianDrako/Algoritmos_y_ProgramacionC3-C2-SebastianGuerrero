@@ -1,0 +1,23 @@
+print("Primero vamos con Matematica")
+ME = int(input("Examen: "))
+MTA = int(input("Tarea #1: "))
+MTB = int(input("Tarea #2: "))
+MTC = int(input("Tarea #3: "))
+
+print("Ahora con Fisica")
+FE = int(input("Examen: "))
+FTA = int(input("Tarea #1: "))
+FTB = int(input("Tarea #2: "))
+FTC = int(input("Tarea #3: "))
+
+print("Por ultimo Quimica")
+QE = int(input("Examen: "))
+QTA = int(input("Tarea #1: "))
+QTB = int(input("Tarea #2: "))
+QTC = int(input("Tarea #3: "))
+
+print()
+print("Tus notas finales seran:")
+print("Matematica", (ME*0.9) + (((MTA+MTB+MTC)/3)*0.1))
+print("Fisica", (FE*0.8) + (((FTA+FTB+FTC)/3)*0.2))
+print("Quimica", (QE*0.85) + ((( QTA+QTB+QTC)/3)*0.15))
